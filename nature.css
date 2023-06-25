@@ -1,0 +1,564 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* -------------------NAV--------------- */
+
+
+#container {
+    /* border: 2px solid red; */
+    position: sticky;
+    background-color: rgba(244, 246, 248, 0.668);
+}
+
+.a1 {
+    background-color: rgb(240, 239, 238);
+    padding: 15px 50px;
+}
+
+.a2 {
+    display: inline;
+    margin: auto 110px;
+}
+
+.a3 {
+    display: inline;
+}
+
+.a3 a {
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.a4 {
+    display: inline;
+}
+
+.a4 a {
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.a5 {
+    display: inline;
+    float: right;
+    margin: auto 100px;
+}
+
+.a5 a {
+    padding: 10px;
+}
+
+/* -----------NAVBAR------------- */
+
+.logo {
+    color: rgb(14, 91, 14);
+    display: inline-block;
+    position: absolute;
+    margin: 0px 163px;
+}
+
+.b1 ul {
+    list-style: none;
+    margin: 20px 608px;
+    display: flex;
+}
+
+ul li {
+    padding: 17px;
+}
+
+.b1 ul li a {
+    text-decoration: none;
+}
+
+.btn button {
+    margin: -65px 135px;
+    font-size: 18px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: white;
+    color: darkgreen;
+    width: 130px;
+    height: 35px;
+    float: right;
+    cursor: pointer;
+}
+
+/* -------------------CONTAINER 1---------------------- */
+
+.c1 {
+    background: url(/Nature/images/flower2.jpg) no-repeat;
+    color: white;
+    display: flex;
+    height: 500px;
+    width: 1518px;
+    align-items: center;
+    text-align: center;
+}
+
+.c2 h1,
+p {
+    /* margin-left: 80px; */
+    padding: 0px 80px;
+}
+
+.btn_1 {
+    font-size: 20px;
+    width: 170px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: #376f4b;
+    color: white;
+}
+
+.c4 {
+    /* border: 2px solid red; */
+    background-color: rgba(244, 246, 248, 0.668);
+    display: flex;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.c4a {
+    /* border: 2px solid bisque; */
+    width: 300px;
+    margin: 2px 101px;
+}
+
+.c4a a {
+    height: 200px;
+    width: 200px;
+}
+
+#para {
+    margin-left: 0px;
+}
+
+/* -----------------About----------------- */
+
+#d {
+    text-align: center;
+}
+
+#d1 {
+    text-align: center;
+}
+
+.d2 {
+    width: 850px;
+    display: inline-block;
+}
+
+#head_1 {
+    margin-left: 95px;
+}
+
+#pic_1 img {
+    width: 550px;
+    height: 400px;
+    float: right;
+    margin: -350px 100px;
+}
+
+.usedgrid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-top: 100px;
+    padding: 20px 20px;
+}
+
+.item {
+    border-right: 1px solid green;
+    padding: 30px 50px;
+}
+
+#item1,
+#item2,
+#item3 {
+    border-bottom: 1px solid green;
+}
+
+#item3,
+#item6 {
+    border-right-color: white;
+}
+
+
+/* ----------------------clients------------------- */
+
+
+.clients {
+    text-align: center;
+}
+
+.e1 img {
+    width: 100px;
+    height: 80px;
+    padding: 50px;
+    border-radius: 70px;
+}
+
+
+/* ----------------service------------ */
+
+#services {
+    text-align: center;
+}
+
+/* --------------services grid-----------  */
+.services_grid{
+    margin-top: -75px;
+}
+
+.f {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-top: 100px;
+    padding: 20px 20px;
+}
+
+.serv {
+    /* border: 2px solid rgb(208, 214, 208); */
+    padding: 20px 20px;
+    text-align: center;
+    margin: 20px 20px;
+    height: 260px;
+    box-shadow: 0px 0px 30px 10px rgb(241, 235, 225);
+}
+
+.serv a {
+    font-size: 70px;
+}
+
+.serv a :hover {
+    color: #02521e;
+}
+
+/* ---------------contact----------------------- */
+.contact {
+    border: 2px solid #5cb874;
+    height: 220px;
+    background-color: #5cb874;
+    color: #f8f9fa;
+}
+
+.call {
+    width: 1000px;
+    margin: 60px 140px;
+    font-size: 16px;
+}
+
+#g1 {
+    padding: 0px;
+}
+
+.call_btn button {
+    border: 2px solid white;
+    color: white;
+    background-color: #5cb874;
+    cursor: pointer;
+    float: right;
+    margin: -100px 230px;
+    font-size: 20px;
+}
+
+
+/* --------------------portfolio--------------------- */
+
+#portfolio {
+    text-align: center;
+    margin-top: 60px;
+}
+.nav_portfolio{
+    display: flex;
+}
+.nav_portfolio ol {
+    display: flex;
+    margin-left: 600px;
+}
+
+ol li {
+    padding: 12px;
+    list-style: none;
+    /* border :2px solid red; */
+    border-radius: 4px;
+}
+
+.nav_portfolio ol li a {
+    text-decoration: none;
+    /* margin-left: 50px; */
+    
+}
+ol li :hover{
+    
+    background-color: #5cb874;
+    color: white;
+}
+ol li :active{
+    color: #02521e;
+}
+.photos{
+    height: 1200px;
+}
+.photos img{
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.photo_1 img{
+    display: flex;
+    margin-left: 205px;
+    width: 320px;
+    height: 300px;
+}
+.photo_2 img{
+    display: flex;
+    margin: -300px 600px;
+    width: 335px;
+    height: 370px;
+}
+.photo_3 img{
+    display: flex;
+    float: right;
+    width: 375px;
+    height: 300px;
+    margin: -70px 135px;
+}
+.photo_4 img{
+    display: flex;
+    margin: 270px 205px;
+    width: 320px;
+    height: 300px;
+}
+.photo_5 img{
+    display: flex;
+    width: 335px;
+    height: 300px;
+    margin: -500px 600px;
+}
+.photo_6 img{
+    display: flex;
+    float: right;
+    margin: 135px -510px;
+    width: 375px;
+    height: 300px;
+}
+.photo_7 img{
+    width: 325px;
+    height: 330px;
+    display: flex;
+    margin: 470px 200px;
+}
+.photo_8 img{
+    width: 340px;
+    height: 300px;
+    display: flex;
+    margin: -730px 600px;
+}
+
+.photo_9 img{
+    width: 375px;
+    display: flex;
+    height: 370px;
+    float: right;
+    margin: 360px 135px;
+}
+
+
+/* ------------------------------Team--------------------- */
+
+#team{
+    position: absolute;
+    background-color: #f3faf5;
+}
+#team h1{
+    text-align: center;
+}
+#team p{
+    text-align: center;
+    margin-left: 20px;
+}
+.t_container{
+    margin-bottom: 100px;
+    /* display: flex; */
+    /* border: 2px solid blue; */
+}
+.t1{
+    display: inline-block;
+    /* border-radius: 10px; */
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid #fff;
+    /* box-shadow: 0px 0px 10px 10px #fff; */
+    background: #fff;
+    width: 380px;
+    height: 460px;
+    margin-left: 122px;
+}
+.t1 img {
+    border-radius: 90px;
+    margin-top: 10px;
+}
+.t2{
+    background: #fff;
+    text-align: center;
+    border: 2px solid #fff;
+    /* border-radius: 10px; */
+    margin-top: -463px;
+    margin-left: 574px;
+    width: 380px;
+    height: 460px;
+}
+.t2 img{
+    border-radius: 90px;
+    margin-top: 10px;
+}
+.t3{
+    width: 379px;
+    background: #fff;
+    text-align: center;
+    border: 2px solid #fff;
+    /* border-radius: 10px; */
+    margin-top: -463px;
+    margin-left: 1026px;
+    height: 460px;
+}
+.t3 img{
+    border-radius: 90px;
+    margin-top: 10px;
+}
+
+/* ---------------CONTACT adrs----------------- */
+#adrs{
+    /* border: 2px solid red; */
+    margin-top: 800px;
+    background-color: #f3faf5;
+    margin-bottom: 50px;
+}
+.hp{
+    text-align: center;
+}
+.rasta{
+    border-top: 4px solid green;
+    border-bottom: 4px solid green;
+    width: 500px;
+    margin-left: 85px;
+    background-color: white;
+}
+.jagah{
+    /* border: 1px solid rgb(50, 63, 205); */
+    width: 500px;
+    height: 120px;
+}
+.jagah :hover{
+    background-color: #b2d2be;
+}
+#s1{
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.sandesh{
+    /* border: 1px solid purple; */
+    width: 500px;
+    height: 120px;
+}
+.sandesh :hover{
+    background-color: #b2d2be;
+}
+#s2{
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.dial{
+    /* border: 2px solid red; */
+    width: 500px;
+    height: 120px;
+}
+.dial :hover{
+    background-color: #b2d2be;
+}
+#s3{
+    margin-top: -90px;
+    margin-left: 80px;
+}
+.barey-me{
+    /* display: flex; */
+    border-top: 4px solid green;
+    border-bottom: 4px solid green;
+    background-color: white;
+    width: 800px;
+    height: 677px;
+    float: right;
+    margin: -685px 85px;
+}
+.ja{
+    display: grid;
+    font-size: large;
+    margin: 20px 30px;
+    width: 355px;
+    height: 70px;
+}
+.jb{
+    display: grid;
+    font-size: large;
+    margin: 20px 30px;
+    width: 355px;
+    height: 70px;
+}
+.jc{
+    display: grid;
+    font-size: large;
+    margin: 20px 30px;
+    width: 355px;
+    height: 70px;
+}
+.jd{
+    display: grid;
+    font-size: large;
+    margin: 20px 30px;
+}
+#jj{
+    font-size: 20px;
+    margin: 5px 315px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ---------------footer--------------  */
+footer{
+    background-color: rgb(22, 21, 21);
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+footer h1{
+    color: #07c449;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer a{
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+
+#ap{
+    color: #07c449;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#right a{
+    float: right;
+    background-color: #ffffff;
+    color: rgb(22, 21, 21);
+    margin: -50px 5px;
+    border-radius: 15px;
+}
