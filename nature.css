@@ -1,7 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+
 body {
     width: 100%;
     height: 100%;
@@ -9,10 +6,7 @@ body {
 
 
 /* -------------------NAV--------------- */
-
-
 #container {
-    /* border: 2px solid red; */
     position: sticky;
     background-color: rgba(244, 246, 248, 0.668);
 }
@@ -92,23 +86,17 @@ ul li {
 }
 
 /* -------------------CONTAINER 1---------------------- */
-
 .c1 {
-    background: url(/Nature/images/flower2.jpg) no-repeat;
+    /* background: url(/Nature/images/flower2.jpg) no-repeat; */
+    background-image: linear-gradient(to right, red, orange, rgb(158, 158, 2), green, rgb(103, 241, 185), indigo, violet);
     color: white;
     display: flex;
     height: 500px;
-    width: 1518px;
+    width: 100%;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
-
-.c2 h1,
-p {
-    /* margin-left: 80px; */
-    padding: 0px 80px;
-}
-
 .btn_1 {
     font-size: 20px;
     width: 170px;
@@ -119,15 +107,14 @@ p {
 }
 
 .c4 {
-    /* border: 2px solid red; */
     background-color: rgba(244, 246, 248, 0.668);
     display: flex;
+    justify-content: center;
     text-align: center;
     margin: 30px auto;
 }
 
 .c4a {
-    /* border: 2px solid bisque; */
     width: 300px;
     margin: 2px 101px;
 }
@@ -152,12 +139,9 @@ p {
 }
 
 .d2 {
+    margin-left: 75px;
     width: 850px;
-    display: inline-block;
-}
-
-#head_1 {
-    margin-left: 95px;
+    display: grid;
 }
 
 #pic_1 img {
@@ -190,10 +174,7 @@ p {
     border-right-color: white;
 }
 
-
 /* ----------------------clients------------------- */
-
-
 .clients {
     text-align: center;
 }
@@ -205,15 +186,13 @@ p {
     border-radius: 70px;
 }
 
-
 /* ----------------service------------ */
-
 #services {
     text-align: center;
 }
 
 /* --------------services grid-----------  */
-.services_grid{
+.services_grid {
     margin-top: -75px;
 }
 
@@ -225,7 +204,6 @@ p {
 }
 
 .serv {
-    /* border: 2px solid rgb(208, 214, 208); */
     padding: 20px 20px;
     text-align: center;
     margin: 20px 20px;
@@ -276,254 +254,233 @@ p {
     text-align: center;
     margin-top: 60px;
 }
-.nav_portfolio{
+
+.nav_portfolio {
     display: flex;
+    justify-content: center;
 }
+
 .nav_portfolio ol {
     display: flex;
-    margin-left: 600px;
 }
 
 ol li {
     padding: 12px;
     list-style: none;
-    /* border :2px solid red; */
     border-radius: 4px;
 }
 
 .nav_portfolio ol li a {
     text-decoration: none;
-    /* margin-left: 50px; */
-    
 }
-ol li :hover{
-    
+
+ol li :hover {
+
     background-color: #5cb874;
     color: white;
 }
-ol li :active{
+
+ol li :active {
     color: #02521e;
 }
-.photos{
-    height: 1200px;
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
 }
+
 .photos img{
-    margin-top: 50px;
-    margin-right: 200px;
+    margin: 20px 70px;
 }
+
 .photo_1 img{
-    display: flex;
-    margin-left: 205px;
+    
     width: 320px;
     height: 300px;
 }
 .photo_2 img{
-    display: flex;
-    margin: -300px 600px;
+  
     width: 335px;
     height: 370px;
 }
 .photo_3 img{
-    display: flex;
-    float: right;
+    
     width: 375px;
     height: 300px;
-    margin: -70px 135px;
+    
 }
 .photo_4 img{
-    display: flex;
-    margin: 270px 205px;
+   
     width: 320px;
     height: 300px;
 }
 .photo_5 img{
-    display: flex;
     width: 335px;
     height: 300px;
-    margin: -500px 600px;
 }
 .photo_6 img{
-    display: flex;
-    float: right;
-    margin: 135px -510px;
+
     width: 375px;
     height: 300px;
 }
 .photo_7 img{
     width: 325px;
     height: 330px;
-    display: flex;
-    margin: 470px 200px;
+   
 }
 .photo_8 img{
     width: 340px;
     height: 300px;
-    display: flex;
-    margin: -730px 600px;
+    
 }
 
 .photo_9 img{
     width: 375px;
-    display: flex;
     height: 370px;
-    float: right;
-    margin: 360px 135px;
 }
-
 
 /* ------------------------------Team--------------------- */
 
-#team{
-    position: absolute;
+#team {
     background-color: #f3faf5;
+    justify-content: center;
+    padding-bottom: 20px;
 }
-#team h1{
+
+#team h1 {
     text-align: center;
 }
-#team p{
+
+#team p {
     text-align: center;
     margin-left: 20px;
 }
-.t_container{
-    margin-bottom: 100px;
-    /* display: flex; */
-    /* border: 2px solid blue; */
-}
-.t1{
-    display: inline-block;
-    /* border-radius: 10px; */
-    margin-top: 20px;
+
+.t_container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
     text-align: center;
-    border: 2px solid #fff;
-    /* box-shadow: 0px 0px 10px 10px #fff; */
-    background: #fff;
-    width: 380px;
-    height: 460px;
-    margin-left: 122px;
+    
 }
+
 .t1 img {
     border-radius: 90px;
     margin-top: 10px;
 }
-.t2{
-    background: #fff;
-    text-align: center;
-    border: 2px solid #fff;
-    /* border-radius: 10px; */
-    margin-top: -463px;
-    margin-left: 574px;
-    width: 380px;
-    height: 460px;
-}
-.t2 img{
+
+.t2 img {
     border-radius: 90px;
     margin-top: 10px;
 }
-.t3{
-    width: 379px;
-    background: #fff;
-    text-align: center;
-    border: 2px solid #fff;
-    /* border-radius: 10px; */
-    margin-top: -463px;
-    margin-left: 1026px;
-    height: 460px;
-}
-.t3 img{
+
+.t3 img {
     border-radius: 90px;
     margin-top: 10px;
 }
 
 /* ---------------CONTACT adrs----------------- */
-#adrs{
-    /* border: 2px solid red; */
-    margin-top: 800px;
+#adrs {
     background-color: #f3faf5;
     margin-bottom: 50px;
 }
-.hp{
+
+.hp {
     text-align: center;
 }
-.rasta{
+
+.rasta {
     border-top: 4px solid green;
     border-bottom: 4px solid green;
     width: 500px;
     margin-left: 85px;
+    margin-top: 40px;
     background-color: white;
 }
-.jagah{
-    /* border: 1px solid rgb(50, 63, 205); */
+
+.jagah {
     width: 500px;
     height: 120px;
 }
-.jagah :hover{
+
+.jagah :hover {
     background-color: #b2d2be;
 }
-#s1{
+
+#s1 {
     margin-top: -90px;
     margin-left: 80px;
 }
-.sandesh{
-    /* border: 1px solid purple; */
+
+.sandesh {
     width: 500px;
     height: 120px;
 }
-.sandesh :hover{
+
+.sandesh :hover {
     background-color: #b2d2be;
 }
-#s2{
+
+#s2 {
     margin-top: -90px;
     margin-left: 80px;
 }
-.dial{
-    /* border: 2px solid red; */
+
+.dial {
     width: 500px;
     height: 120px;
 }
-.dial :hover{
+
+.dial :hover {
     background-color: #b2d2be;
 }
-#s3{
+
+#s3 {
     margin-top: -90px;
     margin-left: 80px;
 }
-.barey-me{
-    /* display: flex; */
+
+.barey-me {
     border-top: 4px solid green;
     border-bottom: 4px solid green;
     background-color: white;
     width: 800px;
-    height: 677px;
+    height: 715px;
     float: right;
-    margin: -685px 85px;
+    margin: -725px 125px;
 }
-.ja{
+
+.ja {
     display: grid;
     font-size: large;
     margin: 20px 30px;
     width: 355px;
     height: 70px;
 }
-.jb{
+
+.jb {
     display: grid;
     font-size: large;
     margin: 20px 30px;
     width: 355px;
     height: 70px;
 }
-.jc{
+
+.jc {
     display: grid;
     font-size: large;
     margin: 20px 30px;
     width: 355px;
     height: 70px;
 }
-.jd{
+
+.jd {
     display: grid;
     font-size: large;
     margin: 20px 30px;
 }
-#jj{
+
+#jj {
     font-size: 20px;
     margin: 5px 315px;
     height: 50px;
@@ -534,28 +491,31 @@ ol li :active{
 }
 
 /* ---------------footer--------------  */
-footer{
+footer {
     background-color: rgb(22, 21, 21);
     color: white;
     text-align: center;
     padding: 10px 10px;
 }
-footer h1{
+
+footer h1 {
     color: #07c449;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-footer a{
+
+footer a {
     padding: 10px;
     font-size: 30px;
     color: #fff;
 }
 
-#ap{
+#ap {
     color: #07c449;
     cursor: pointer;
     font-weight: bolder;
 }
-#right a{
+
+#right a {
     float: right;
     background-color: #ffffff;
     color: rgb(22, 21, 21);
